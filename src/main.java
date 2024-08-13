@@ -3,6 +3,7 @@ public class main {
         BonusMilesService service = new BonusMilesService();
         int price = 7649;
         int miles = service.calculate(price);
-        System.out.println(miles);
+        System.out.println("Стоимость билета составляет: " + price + " рублей");
+        System.out.println("Бонусных миль будет начислено: " + miles);
     }
 }
